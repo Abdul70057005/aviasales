@@ -33,8 +33,9 @@ const App = () => {
     return (
         <div className="aviasales">
             <img className="logo" src={Logo} alt="logo"/>
+            
             <div className="wrapper">
-                <FilterTicket />
+            <FilterTicket className="filterTicket"/>
                 <div className="wrapper__item">
                     <header className="header">
                         <div className="header__filters">
@@ -47,6 +48,7 @@ const App = () => {
                     <button className="button">ПОКАЗАТЬ ЕЩЁ 5 БИЛЕТОВ!</button>
                 </div>
             </div>
+            
         </div>
     )
 }
