@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 
 import { toggleCheapest, toggleFastest, toggleValue } from '../../store/actions'
 import FilterTicket from '../filterTickets/filterTickets'
-import TicketsList from '../ticketsList'
+import TicketsList from '../ticketsList/ticketsList'
 
 import Logo from './Logo.png'
 
