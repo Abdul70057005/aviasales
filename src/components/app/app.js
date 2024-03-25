@@ -1,5 +1,5 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 
 import { toggleCheapest, toggleFastest, toggleValue } from '../../store/actions'
 import FilterTicket from '../filterTickets/filterTickets'

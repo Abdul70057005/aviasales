@@ -1,4 +1,5 @@
-import React, { useEffect, useDispatch, useSelector } from 'react'
+import React, { useEffect, useSelector } from 'react'
+import { useDispatch } from 'react-redux'
 import { Spin, Alert } from 'antd'
 import './ticketsList.scss'
 import { addHours, addMinutes } from 'date-fns'
