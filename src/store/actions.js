@@ -49,23 +49,23 @@ export function searchIdsLoad() {
 }
 
 export function ticketsLoad(searchId) {
-  return async (dispatch) => {
+  return async (dispat) => {
     try {
       let response = await fetch(`https://aviasales-test-api.kata.academy/tickets?searchId=${searchId}`)
       if (!response.ok) {
         if (response.status === 502 || response.status === 500) {
-          dispatch(ticketsLoad(searchId))
+          dispat(ticketsLoad(searchId))
         } else {
           throw new Error('Ошибка')
         }
       }
       const jsonData = await response.json()
-      dispatch({
+      dispat({
         type: TICKETS_LOAD,
         payload: jsonData,
       })
       if (!jsonData.stop) {
-        dispatch(ticketsLoad(searchId))
+        dispat(ticketsLoad(searchId))
       }
     } catch (error) {
       console.log(error.message)
