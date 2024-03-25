@@ -1,171 +1,183 @@
 @media (min-width: 320px) {
-    .aviasales{
-        background-color: #f6f2f2f6;
-    }
-    
-    .header {
-        display: flex;
-        flex-direction: column; 
-    }
-    
-    .logo {
-        display: block;
-        margin: 0 auto;
-    }
-    
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        column-gap: 10px;
-        align-items: center;
-    
-    }
-    
-    .wrapper__item {
-        display: block;
-    
-    }
-    
-    .header__filters {
-        width: 320px;
-        height: 40px;
-        display: flex;
-        flex-direction: row;
-        background-color: white;
-        margin: 0 auto;  
-    }
-    
-    .header__filters__item{
-        border: 1px solid #DFE5EC;
-        border-radius: 10px; 
-        width: 180px;
-        text-align: center;
-        padding-top: 15px;
-        font-size: 10px;
-    }
-    
-    .header__filters__item--hover__cheapest {
-        border: 1px solid #DFE5EC;
-        border-radius: 10px; 
-        width: 180px;
-        text-align: center;
-        padding-top: 15px;
-        font-size: 10px;
-        background-color: #2196F3;
-        color: white;
-        cursor: pointer;
-    }
+  .aviasales {
+    background-color: #f6f2f2f6;
+  }
 
-    .header__filters__item--hover__fastest {
-        border: 1px solid #DFE5EC;
-        border-radius: 10px; 
-        width: 180px;
-        text-align: center;
-        padding-top: 15px;
-        font-size: 10px;
-        background-color: #2196F3;
-        color: white;
-        cursor: pointer;
-    }
-    
-    .button {
-        width: 320px;
-        height: 40px;
-        border: 1px solid #DFE5EC;
-        border-radius: 10px;
-        color: white;
-        background-color: #2196F3;
-    }
-    
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    align-items: center;
+  }
+
+  .wrapper__item {
+    display: block;
+  }
+
+  .header__filters {
+    width: 320px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 0 auto;
+  }
+
+  .header__filters__item {
+    border: 1px solid #dfe5ec;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 10px;
+  }
+
+  .header__filters__item--hover__cheapest {
+    border: 1px solid #dfe5ec;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 10px;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+  }
+
+  .header__filters__item--hover__fastest {
+    border: 1px solid #dfe5ec;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 10px;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+  }
+
+  .wrapper__button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    width: 320px;
+    height: 40px;
+    border: 1px solid #dfe5ec;
+    border-radius: 10px;
+    color: white;
+    background-color: #2196f3;
+  }
+
+  .filterTicket {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 768px) {
-    .aviasales{
-        background-color: #f6f2f2f6;
-    }
-    
-    .header {
-        display: flex;
-        flex-direction: column; 
-    }
-    
-    .logo {
-        display: block;
-        margin: 0 auto;
-    }
-    
-    .wrapper {
-        display: flex;
-        flex-direction: row;
-        column-gap: 10px;
-        justify-content: center;
-        
-    }
-    
-    .wrapper__item {
-        display: block;
-    
-    }
-    
-    .header__filters {
-        width: 502px;
-        height: 50px;
-        display: flex;
-        flex-direction: row;
-        background-color: white;  
-    }
-    
-    .header__filters__item{
-        border: 1px solid #DFE5EC;
-        border-radius: 10px; 
-        width: 180px;
-        text-align: center;
-        padding-top: 15px;
-        font-size: 14px;
-    }
+  .aviasales {
+    background-color: #f6f2f2f6;
+  }
 
-    .header__filters__item--hover__cheapest {
-        border: 1px solid #DFE5EC;
-        border-radius: 10px; 
-        width: 180px;
-        text-align: center;
-        padding-top: 15px;
-        font-size: 14px;
-        background-color: #2196F3;
-        color: white;
-        cursor: pointer;
-    }
+  .section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
 
-    .header__filters__item--hover__fastest {
-        border: 1px solid #DFE5EC;
-        border-radius: 10px; 
-        width: 180px;
-        text-align: center;
-        padding-top: 15px;
-        font-size: 14px;
-        background-color: #2196F3;
-        color: white;
-        cursor: pointer;
-    }
-    
-    
-    .header__filters__item:hover {
-        background-color: #2196F3;
-        color: white;
-        cursor: pointer;
-    }
-    
-    .button {
-        width: 502px;
-        height: 50px;
-        border: 1px solid #DFE5EC;
-        border-radius: 10px;
-        color: white;
-        background-color: #2196F3;
-    }
-    
-    .button:hover {
-        cursor: pointer;
-    }
-    
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+    justify-content: center;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+  }
+
+  .header__filters {
+    width: 502px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  }
+
+  .header__filters__item {
+    border: 1px solid #dfe5ec;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+  }
+
+  .header__main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__filters__item--hover__cheapest {
+    border: 1px solid #dfe5ec;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+  }
+
+  .header__filters__item--hover__fastest {
+    border: 1px solid #dfe5ec;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+  }
+
+  .header__filters__item:hover {
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button {
+    width: 502px;
+    height: 50px;
+    border: 1px solid #dfe5ec;
+    border-radius: 10px;
+    color: white;
+    background-color: #2196f3;
+  }
+
+  .button:hover {
+    cursor: pointer;
+  }
 }

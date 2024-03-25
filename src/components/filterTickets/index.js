@@ -1,3 +1,3 @@
-import FilterTicket from "./filterTickets";
+import FilterTicket from './filterTickets'
 
 export default FilterTicket
