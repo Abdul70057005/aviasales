@@ -9,14 +9,15 @@ const initialState = {
 
 export const getSearchId = (state = initialState, action) => {
   switch (action.type) {
-    case ID_LOAD:
+    case ID_LOAD: {
       return {
         ...state,
-        earchId: action.payload.searchId,
+        searchId: action.payload.searchId,
         tickets: state.tickets,
         stop: state.stop,
         buttonValue: state.buttonValue,
       }
+    }
     case TICKETS_LOAD: {
       let updateTickets = [...state.tickets, ...action.payload.tickets]
       return {
