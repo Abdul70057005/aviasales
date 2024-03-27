@@ -53,7 +53,6 @@ const App = () => {
               <span className={classNameFastest} onClick={handleFastest}>
                 САМЫЙ БЫСТРЫЙ
               </span>
-              <span className="header__filters__item">ОПТИМАЛЬНЫЙ</span>
             </div>
             <div>
               <TicketsList />
