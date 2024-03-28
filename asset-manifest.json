@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/aviasales/static/css/main.0e49d64b.css",
+    "main.css": "/aviasales/static/css/main.4ab969ea.css",
     "main.js": "/aviasales/static/js/main.c8ff43e9.js",
     "static/media/Logo.png": "/aviasales/static/media/Logo.fe0f0283d26c89ede874.png",
     "index.html": "/aviasales/index.html",
-    "main.0e49d64b.css.map": "/aviasales/static/css/main.0e49d64b.css.map",
+    "main.4ab969ea.css.map": "/aviasales/static/css/main.4ab969ea.css.map",
     "main.c8ff43e9.js.map": "/aviasales/static/js/main.c8ff43e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e49d64b.css",
+    "static/css/main.4ab969ea.css",
     "static/js/main.c8ff43e9.js"
   ]
 }
